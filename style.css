@@ -1,0 +1,42 @@
+<style>
+body { 
+ font-family: Arial, sans-serif; /* Рубленый шрифт */ 
+}
+.letter { 
+ color: rgb(30, 150, 40); /* Красный цвет символов */ 
+ font-size: 200%; /* Размер шрифта в процентах */ 
+ font-family: serif; /* Шрифт с засечками */ 
+ position: relative; /* Относительное позиционирование */ 
+ top: 5px; /* Сдвиг сверху */ 
+}
+.block1 { 
+ width: 200px; 
+ background: #ccc;
+ padding: 5px;
+ padding-right: 20px; 
+ border: solid 1px black; 
+    float: left;
+}
+.block2 { 
+ width: 200px; 
+ background: #fc0; 
+ padding: 5px; 
+ border: solid 1px black; 
+}
+.block3 { 
+ width: 600px; 
+}
+.spisok {
+    background-color: dimgray;
+    color: snow;
+    padding: 10px;
+    font-size: 150%
+}
+.parent .children {
+    
+}
+.parent {
+    padding: 10px;
+    color: #fc0;
+}
+</style> 
